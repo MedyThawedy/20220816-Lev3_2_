@@ -23,8 +23,6 @@ let arrFnZahlen = (nr) => {
             console.log('Die Zahl ' + nr + ' lässt sich durch ' + i + ' teilen! ');
             console.log(' Das Ergebnis von (' + nr + ' / ' + i + ') = ' + (nr / i));
             document.write('<p> Die Zahl ' + nr + ' lässt sich durch ' + i + ' teilen! ' + ` Das Ergebnis von (' + ${nr} + ' / ' + ${i} + ') = ${(nr / i)} </p>`);
-
-
         }
     }
 }
